@@ -1,0 +1,83 @@
+.container{
+    margin: 0 auto;
+    width: 450px;
+    height: 700px;
+    border: 5px solid black;
+    margin-top: 100px;
+    background-color:burlywood;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0 10px 10px rgba(0, 0,0, .9);
+    padding-top: 20px;
+}
+.resultat{
+   border: 5px solid black;
+   width: 340px;
+   height: 50px;
+   margin-left: 30px;
+   background-color: white;
+   border-radius: 10px;
+   border:none ;
+   text-align: center;
+   padding-top: 40px;
+   font-weight: bold;
+   font-size: 20px;
+   
+   
+}
+.touche{
+    border: 5px solid black;
+    width: 90%;
+   height: 300px;
+   background-color: rgb(70, 46, 14);
+   border: none;
+   display: flex;
+   flex-direction: row;
+   border-radius: 10px;
+
+}
+.btn{
+    display: flex;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 20px;
+    flex-direction:space-between ;
+}
+.opera{
+    display: flex;
+    width: 450px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.touch{
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-size: 20px; 
+    box-shadow: 0 7px 10px rgba(0, 0,0, .7);
+    border: none;
+}
+.touch:hover{
+    background-color: green;
+}
+.egal:hover{
+    background-color: crimson;   
+}
+.touche1{
+   background-color: burlywood;
+}
+.tuch1{
+
+}
+
+
+
+

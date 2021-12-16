@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div id="titre">
+        <h1>Ma Calculatrice </h1>
+    </div>
+    <div id="calculatrice">
+        <table>
+            <tr>
+                <td class="info"><label for="nbre1"> nombre1 </label></td>
+                <td><input type="text" id="nbre1" placeholder="Entrer le nombre1"></td>
+            </tr>
+            <tr>
+                <td class="info"><label for="nbre2"> nombre2 </label></td>
+                <td><input type="text" id="nbre2" placeholder="Entrer le nombre2"></td>
+            </tr>
+            <tr>
+                <td>
+                    <select >
+                        <option  id="add">Addition</option>
+                        <option  id="sous">Soustraction</option>
+                        <option  id="mul">Multiplication</option>
+                        <option  id="div">Division</option>
+                    </select>
+                </td>
+                <td><input type="button" id="btn" value="Calculer"></td>
+            </tr>
+            <tr>
+                <td class="info"><label for="result"> Resultat  </label></td>
+                <td><input type="text" id="result" placeholder=""></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
